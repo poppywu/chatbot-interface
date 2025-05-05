@@ -86,5 +86,7 @@ Integrate OpenAI or other chatbot APIs
 Improve animations and transitions
 Add typing indicators and message timestamps
 
+---
+
 ## 🚀 Deployment
 https://chatbot-interface-olive.vercel.app/
