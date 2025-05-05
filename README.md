@@ -1,6 +1,7 @@
 # Chatbot Interface – React Project
 
 A responsive, React-based chatbot website with dynamic navigation, live search filtering, and a real-time chat UI with timer.
+Project deployed to Vercel: https://chatbot-interface-olive.vercel.app/
 
 ---
 
@@ -51,8 +52,9 @@ Then open http://localhost:3000 in your browser.
 src/
 ├── components/
 │   ├── Chatbot.jsx         # Chatbot UI and logic
-│   ├── Content.jsx         # Page content with search filtering
+│   ├── ContentArea.jsx         # Page content with search filtering
 │   └── Navbar.jsx          # Top navbar with logo and search bar
+│   └── SideMenu.jsx          # Top navbar with logo and search bar
 │
 ├── context/
 │   └── AppContext.js       # Global state (e.g., showChatbot)
@@ -85,3 +87,4 @@ Improve animations and transitions
 Add typing indicators and message timestamps
 
 ## 🚀 Deployment
+https://chatbot-interface-olive.vercel.app/
