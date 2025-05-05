@@ -47,19 +47,25 @@ Then open http://localhost:3000 in your browser.
 ---
 
 ## 📁 Folder Structure
+```
 src/
 ├── components/
-│   ├── Chatbot.jsx
-│   ├── Content.jsx
-│   └── Navbar.jsx
+│   ├── Chatbot.jsx         # Chatbot UI and logic
+│   ├── Content.jsx         # Page content with search filtering
+│   └── Navbar.jsx          # Top navbar with logo and search bar
+│
 ├── context/
-│   └── AppContext.js
+│   └── AppContext.js       # Global state (e.g., showChatbot)
+│
 ├── hooks/
-│   └── useTimer.js
+│   └── useTimer.js         # Custom hook to manage elapsed time
+│
 ├── styles/
-│   └── global.css
-├── App.jsx
-└── main.jsx
+│   └── global.css          # Global styling and consistent blue theme
+│
+├── App.jsx                 # Root component with layout and routing
+├── main.jsx                # React entry point (Vite) or index.js for CRA
+```
 
 ---
 
